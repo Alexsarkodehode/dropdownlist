@@ -91,3 +91,8 @@ body{
 .active{
     background:#6497bf;
 }
+
+.menu-open{
+    display:block;
+    opacity:1;
+}
