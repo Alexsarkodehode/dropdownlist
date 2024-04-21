@@ -4,6 +4,7 @@ const dropDown1 = document.querySelector('.dropdown1');
 const dropDown2 = document.querySelector('.dropdown2');
 
 /* We write dropDown instead of dropDowns because the dropdowns are split into individual dropDowns */
+/*  */
 dropDowns.forEach(dropDown => {
     dropDowns.addEventListener('click', () => {
         /* querySelector is selecting the css class .active.
