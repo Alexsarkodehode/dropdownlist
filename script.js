@@ -8,5 +8,10 @@ const dropDowns = document.querySelectorAll('.dropdown');
 /**/
 dropDowns.forEach(dropdown => {
 
+const select = document.querySelector('.select'):
+const caret = document.querySelector('.caret');
+const menu = document.querySelector('.menu');
+const menuList = document.querySelector('.menu list')
+
 })
 
