@@ -10,22 +10,31 @@
 /* we use the querySelectorAll to select multiple elements at the same time */
 const dropDowns = document.querySelectorAll('.dropdown');
 
-dropDowns.style.display = 'none';
 
-/*after */
 dropDowns.forEach(dropdown => {
 
-    const select = document.querySelector('.select');
+    const selectClicked = document.querySelector('.select');
     const selected = document.querySelector('.selected')
-    const caret = document.querySelector('.caret');
-    const menu = document.querySelector('.menu');
+    const caretRotate = document.querySelector('.caret');
+    const menuOpen = document.querySelector('.menu');
     const menuList = document.querySelector('.menu list')
 
-})
+
 
 select.addEventListener('click', () =>{
 
-    select.classList.toggle('.select-clicked')
-    select.classList.toggle('.caret-rotate')
-    select.classList.toggle('.menu-open')
+    selectClicked.classList.toggle('.select-clicked');
+    caretRotate.classList.toggle('.caret-rotate');
+    menuOpen.classList.toggle('.menu-open');
+})
+
+options.forEach(option => {
+    option.addEventListener('click', () =>{
+        selected.innerText = option.innerText
+        selectClicked.classList.remove('select-clicked');
+        caretRotate.classList.remove('caret-rotate');
+        menuOpen.classList.remove('menu-open');
+    })
+})
+
 })
