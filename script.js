@@ -21,19 +21,24 @@ dropDowns.forEach(dropdown => {
 
 
 
-select.addEventListener('click', () =>{
+selectClicked.addEventListener('click', () =>{
 
     selectClicked.classList.toggle('.select-clicked');
     caretRotate.classList.toggle('.caret-rotate');
     menuOpen.classList.toggle('.menu-open');
+
 })
 
 options.forEach(option => {
+
     option.addEventListener('click', () =>{
+
         selected.innerText = option.innerText
+
         selectClicked.classList.remove('select-clicked');
         caretRotate.classList.remove('caret-rotate');
         menuOpen.classList.remove('menu-open');
+        
     })
 })
 
