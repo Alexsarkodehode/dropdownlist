@@ -17,7 +17,7 @@ dropDowns.forEach(dropdown => {
     const selected = document.querySelector('.selected')
     const caretRotate = document.querySelector('.caret');
     const menuOpen = document.querySelector('.menu');
-    const menuList = document.querySelector('.menu list')
+    const myMenu = document.querySelector('.menu list');
 
 
 
@@ -35,9 +35,9 @@ options.forEach(option => {
 
         selected.innerText = option.innerText
 
-        selectClicked.classList.remove('select-clicked');
-        caretRotate.classList.remove('caret-rotate');
-        menuOpen.classList.remove('menu-open');
+        selectClicked.classList.remove('.select-clicked');
+        caretRotate.classList.remove('.caret-rotate');
+        menuOpen.classList.remove('.menu-open');
         
     })
 })
