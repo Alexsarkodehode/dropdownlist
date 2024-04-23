@@ -10,9 +10,10 @@
 /* we use the querySelectorAll to select multiple elements at the same time */
 const dropDowns = document.querySelectorAll('.dropdown');
 
-
+/* These actions should for the dropDown divs */
 dropDowns.forEach(dropdown => {
 
+    //We select the different class elements
     const selectClicked = document.querySelector('.select');
     const selected = document.querySelector('.selected')
     const caretRotate = document.querySelector('.caret');
@@ -20,12 +21,12 @@ dropDowns.forEach(dropdown => {
     const myMenu = document.querySelector('.menu list');
 
 
-
+/* the div selectClicked which contains span tag text and caret,  */
 selectClicked.addEventListener('click', () =>{
 
-    selectClicked.classList.toggle('.select-clicked');
-    caretRotate.classList.toggle('.caret-rotate');
-    menuOpen.classList.toggle('.menu-open');
+    selectClicked.classList.toggle('select-clicked');
+    caretRotate.classList.toggle('caret-rotate');
+    menuOpen.classList.toggle('menu-open');
 
 })
 
@@ -35,9 +36,9 @@ options.forEach(option => {
 
         selected.innerText = option.innerText
 
-        selectClicked.classList.remove('.select-clicked');
-        caretRotate.classList.remove('.caret-rotate');
-        menuOpen.classList.remove('.menu-open');
+        selectClicked.classList.remove('select-clicked');
+        caretRotate.classList.remove('caret-rotate');
+        menuOpen.classList.remove('menu-open');
         
     })
 })
