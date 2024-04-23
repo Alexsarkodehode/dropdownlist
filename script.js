@@ -10,6 +10,8 @@
 /* we use the querySelectorAll to select multiple elements at the same time */
 const dropDowns = document.querySelectorAll('.dropdown');
 
+dropDowns.style.display = 'none';
+
 /*after */
 dropDowns.forEach(dropdown => {
 
@@ -22,5 +24,8 @@ dropDowns.forEach(dropdown => {
 })
 
 select.addEventListener('click', () =>{
-    
+
+    select.classList.toggle('.select-clicked')
+    select.classList.toggle('.caret-rotate')
+    select.classList.toggle('.menu-open')
 })
