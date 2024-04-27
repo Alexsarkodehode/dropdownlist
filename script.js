@@ -39,6 +39,11 @@ options.forEach(option => {
         selectClicked.classList.remove('select-clicked');
         caretRotate.classList.remove('caret-rotate');
         menuOpen.classList.remove('menu-open');
+
+        options.forEach(option => {
+            option.classList.remove('active');
+        })
+        option.classList.add('active');
         
     })
 })
