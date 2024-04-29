@@ -5,42 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./script.js"></script>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer ></script>
     <script src="./script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
 
-    <div class="dropdown" class="active">
-
-        <div class="select">
-            <span class="selected">Broadcasting devices</span>
-            <div class="caret"></div>
-        </div>
-
-        <ul class="menu">
-            <li>Tv</li>
-            <li>Phone</li>
-            <li>Ipad</li>
-            <li>Tablet</li>
-        </ul>
-
-    </div>
-
-    <div class="dropdown" class="active">
-
-        <div class="select">
-            <span class="selected">Different cloud computing models</span>
-            <div class="caret"></div>
-        </div>
-
-        <ul class="menu">
-            <li>Hybrid</li>
-            <li>Public</li>
-            <li>Private</li>
-            <li>Multiclouds</li>
-        </ul>
-
-    </div>
+    <h2>
+        Using the <i> div and p tag </i> to create a dropdown list in JavaScript.
+     </h2>
+     <h3>Choose any value from below dropdown list.</h3>
+     <div id = "output">The selected value is none</div>
+     <br>
+     <!-- whenever we select the value, it will invoke the selectOption() function -->
+     <div class = "menu-dropdown" onclick = "openDropdown()">
+        Choose Value
+     </div>
+     <div class = "dropdown-list" id = "list">
+        <p>First option</p>
+        <p>Second option</p>
+        <p>Third option</p>
+        <p>Fourth option</p>
+        <p>Fifth option</p>
+        <p>Sixth option</p>
+        <p>Seventh option</p>
+     </div>
     
 </body>
 </html>

@@ -1,51 +1,24 @@
-//we start with selecting the dropdown classes and then we put it into a variable
-//After we select the dropdowns classes we chain the variable into a forEach method
-//we make the different variables inside the forEach method
-//Then we select the different html tags like sub div, sub sub div, ul and li tags that come under ul. 
-//And their classes .select .caret .menu .menu li 
-
-
-
-
-/* we use the querySelectorAll to select multiple elements at the same time */
-const dropDowns = document.querySelectorAll('.dropdown');
-
-/* These actions should for the dropDown divs */
-dropDowns.forEach(dropdown => {
-
-    //We select the different class elements
-    const selectClicked = document.querySelector('.select');
-    const selected = document.querySelector('.selected')
-    const caretRotate = document.querySelector('.caret');
-    const menuOpen = document.querySelector('.menu');
-    const myMenu = document.querySelector('.menu list');
-
-
-/* the div selectClicked which contains span tag text and caret,  */
-selectClicked.addEventListener('click', () =>{
-
-    selectClicked.classList.toggle('select-clicked');
-    caretRotate.classList.toggle('caret-rotate');
-    menuOpen.classList.toggle('menu-open');
-
-})
-
-options.forEach(option => {
-
-    option.addEventListener('click', () =>{
-
-        selected.innerText = option.innerText
-
-        selectClicked.classList.remove('select-clicked');
-        caretRotate.classList.remove('caret-rotate');
-        menuOpen.classList.remove('menu-open');
-
-        options.forEach(option => {
-            option.classList.remove('active');
-        })
-        option.classList.add('active');
-        
-    })
-})
-
-})
+let output = document.getElementById('output');
+      let dropdownList = document.getElementById("list");
+      dropdownList.style.display = "none";
+      function openDropdown() {
+         if (dropdownList.style.display != "none") {
+            dropdownList.style.display = "none";
+         } else {
+            dropdownList.style.display = "block";
+         }
+      }
+      const p_elements = document.getElementsByTagName("p");
+      // access all p elements
+      const totalP = p_elements.length;
+      // iterate through all <p> elements
+      for (let i = 0; i < totalP; i++) {
+         const option = p_elements[i];
+         // add event listner to <p> element
+         option.addEventListener("click", () => {
+            // When a user clicks on any p element, get its innerHTML
+            output.innerHTML = "The selected option is " + option.innerHTML;
+            // close the dropdown list once users select an option
+            dropdownList.style.display = "none";
+         })
+      }
