@@ -1,5 +1,6 @@
 const backgroundEl = document.getElementsByClassName(".backgroundDiv")
 console.log(backgroundEl)
 
-backgroundEl = [image: ]
+backgroundEl = [title: 'backgroundImage' image: '../images/ancientjapanesehouse.jpg']
+scr.
 
