@@ -4,15 +4,9 @@ body, html {
    height: 100%;
  }
  
- .bg {
-   /* The image used */
-   background-image: url("../images/ancientjapanesehouse.jpg");
- 
-   /* Full height */
+ #myImage {
    height: 100%;
- 
-   /* Center and scale the image nicely */
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
+   width: 100%;
  }
+
+ 
