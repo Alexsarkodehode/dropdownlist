@@ -1,7 +1,7 @@
+const myImage = document.querySelector("#myImage")
+console.log(myImage)
 
-/* 
-Create an HTML element to hold the image, such as an img tag.
-Set the src attribute of the img tag to the URL or file path of the image you want to display.
-Add the img tag to the HTML document using the document. */
+const img_1 = document.querySelector("img")
+console.log(img_1)
+img_1.src = "../images/ancientjapanesehouse.jpg"
 
-const myImage = document.getElementById("#")
