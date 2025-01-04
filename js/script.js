@@ -22,8 +22,7 @@ const my_images = document.querySelectorAll("img")
 console.log(my_images)
 
 my_images[0].src = "../images/ancientjapanesehouse.jpg"
-my_images[1].src = "../images/architect-9280053_1280.jpg"
-my_images[2].src = "../images/beach1.jpg.jpg"
+
 
 
 
