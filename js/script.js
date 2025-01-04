@@ -6,14 +6,19 @@ img_1.src = "../images/ancientjapanesehouse.jpg" */
 
 //method two 
 
-const img = document.createElement("img")
+/* const img = document.createElement("img")
 img.src = "../images/ancientjapanesehouse.jpg"
 
 img.style.width = "100%"
 img.style.height = "100%"
 img.style.borderRadius = "1.5%"
 
-document.body.appendChild(img)
+document.body.appendChild(img) */
+
+//method three 
+
+const my_images = document.querySelectorAll(img)
+console.log(my_images)
 
 
 
