@@ -23,7 +23,9 @@ console.log(myImage)
 
 myImage[0].src = "../images/ancientjapanesehouse.jpg"
 
-myImage.id = "styling" 
+myImage.id = "styling"
+
+myImage.setAttribute("id", "styling")
 
 
 
