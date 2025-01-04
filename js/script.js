@@ -17,12 +17,13 @@ document.body.appendChild(img) */
 
 //method three 
 
-const my_images = document.querySelectorAll("img")
+const myImage = document.querySelectorAll("img")
 
-console.log(my_images)
+console.log(myImage)
 
-my_images[0].src = "../images/ancientjapanesehouse.jpg"
+myImage[0].src = "../images/ancientjapanesehouse.jpg"
 
+myImage.id = "styling" 
 
 
 
