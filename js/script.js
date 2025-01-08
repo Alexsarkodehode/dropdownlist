@@ -28,7 +28,7 @@ console.log(myImage[0])
 myImage[0].setAttribute("class", "myStyle") */
 
 //method 4
-
+/* 
 let thisImage = document.createElement("img")
 
 thisImage.src = "../images/architect-9280053_1280.jpg"
@@ -39,6 +39,21 @@ thisImage.addEventListener("click" ,function(){
 
 
 document.body.appendChild(thisImage)
+ */
+
+//method 5
+/* 
+const thisImage = document.createElement("img")
+
+thisImage.src = "../images/architect-9280053_1280.jpg"
+
+thisImage.addEventListener("click", function(e){
+    e.target.classList.toggle("myStyle")
+    console.log("clicked")
+} )
+
+document.body.appendChild(thisImage)
+ */
 
 
 
