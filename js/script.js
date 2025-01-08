@@ -33,9 +33,10 @@ let thisImage = document.createElement("img")
 
 thisImage.src = "../images/architect-9280053_1280.jpg"
 
-thisImage.addEventListener("click" ,function(){console.log("clicked")})
+thisImage.addEventListener("click" ,function(){
+    thisImage.setAttribute("class", "myStyle")
+    console.log("clicked")})
 
-thisImage.setAttribute("class", "myStyle")
 
 document.body.appendChild(thisImage)
 
