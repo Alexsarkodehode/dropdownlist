@@ -23,9 +23,11 @@ console.log(myImage)
 
 myImage[0].src = "../images/ancientjapanesehouse.jpg"
 
-myImage[0].classList.add("myStyle")
-myImage[0].classList.remove("myStyle")
 console.log(myImage[0])
+
+myImage[0].setAttribute("class", "myStyle")
+
+
 
 
 
