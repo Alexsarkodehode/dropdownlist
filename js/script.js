@@ -17,7 +17,7 @@ document.body.appendChild(img) */
 
 //method three 
 
-const myImage = document.querySelectorAll("img")
+/* const myImage = document.querySelectorAll("img")
 
 console.log(myImage)
 
@@ -25,9 +25,16 @@ myImage[0].src = "../images/ancientjapanesehouse.jpg"
 
 console.log(myImage[0])
 
-myImage[0].setAttribute("class", "myStyle")
+myImage[0].setAttribute("class", "myStyle") */
 
+//method 4
 
+let thisImage = document.createElement("img")
 
+thisImage.src = "../images/beach1.jpg.jpg"
+
+thisImage.addEventListener(click,function(){})
+
+document.body.appendChild(thisImage)
 
 
