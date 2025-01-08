@@ -31,10 +31,14 @@ myImage[0].setAttribute("class", "myStyle") */
 
 let thisImage = document.createElement("img")
 
-thisImage.src = "../images/beach1.jpg.jpg"
+thisImage.src = "../images/architect-9280053_1280.jpg"
 
-thisImage.addEventListener(click,function(){})
+thisImage.addEventListener("click" ,function(){console.log("clicked")})
+
+thisImage.setAttribute("class", "myStyle")
 
 document.body.appendChild(thisImage)
+
+
 
 
