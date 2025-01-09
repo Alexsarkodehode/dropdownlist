@@ -62,7 +62,8 @@ let myImage = document.createElement("img")
 
 myImage.src = "../images/beach1.jpg.jpg"
 
-myImage.addEventListener("click", function(){
+myImage.addEventListener("click", function(e){
+    e.target.classList.toggle("myStyle")
     console.log(e.target.src)
 }  )
 
