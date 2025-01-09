@@ -74,6 +74,12 @@ document.body.appendChild(myImage) */
 for(i=0; i<10; i++){
     const myImage = document.createElement("img")
     myImage.src = "../images/ancientjapanesehouse.jpg"
+    document.body.appendChild(myImage)
+
+    myImage.addEventListener("click", function(e){
+        e.target.classList.toggle("myStyle")
+        console.log(e.target.src)
+    }  )
 }
 
 
