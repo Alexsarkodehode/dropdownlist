@@ -55,9 +55,9 @@ thisImage.addEventListener("click", function(e){
 document.body.appendChild(thisImage)
  */
 
+//method 6
 
-
-
+/* 
 let myImage = document.createElement("img")
 
 myImage.src = "../images/beach1.jpg.jpg"
@@ -67,4 +67,12 @@ myImage.addEventListener("click", function(e){
     console.log(e.target.src)
 }  )
 
-document.body.appendChild(myImage)
+document.body.appendChild(myImage) */
+
+//method 7
+
+for(i=0; i<11; i++;){
+    console.log(i)
+}
+
+
