@@ -90,13 +90,15 @@ document.body.appendChild(myImage) */
 for(i=0; i<10; i++){
     
     const myImage = document.createElement("img")
-    myImage.src = "../images/architect-9280053_1280.jpg"
     
-    if(i === 5 ) {
-        myImage.classList.add("marginStyle")
-        document.body.appendChild("myImage")
-    }
+    myImage.src = "../images/architect-9280053_1280.jpg" + i;
 
+    if(i === 5 ) {
+        myImage.style.borderRadius(".myStyle.myRadius")
+    }
+    
+    myImage.classList.add("marginStyle")
+    document.body.appendChild("myImage")
 
 }
 

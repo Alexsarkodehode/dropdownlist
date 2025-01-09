@@ -1,11 +1,14 @@
 
 
-.myStyle {
+.myStyle.volum {
   height: 100%;
   width: 100%;
-  border-radius: 1.5%;
 }
 
-.marginStyle {
+.myStyle.marginStyle {
   margin: 20px;
+}
+
+myStyle.myRadius{
+border-radius: 1.5%;
 }
