@@ -58,3 +58,12 @@ document.body.appendChild(thisImage)
 
 
 
+let myImage = document.createElement("img")
+
+myImage.src = "../images/beach1.jpg.jpg"
+
+myImage.addEventListener("click", function(){
+    console.log(e.target.src)
+}  )
+
+document.body.appendChild(myImage)
