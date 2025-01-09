@@ -77,11 +77,10 @@ for(i=0; i<10; i++){
     document.body.appendChild(myImage)
 
     myImage.addEventListener("click", function(e){
-        myImage.classList.add("myStyle")
-        console.log(e.target.src)
-    }  )
+    e.target.classList.toggle("myStyle")
+    myImage.classList.add("")
+    console.log(e.target.src)
+}  )
 }
-
-
 
 
