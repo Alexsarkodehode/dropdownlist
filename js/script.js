@@ -91,14 +91,14 @@ for(i=0; i<10; i++){
     
     const myImage = document.createElement("img")
     
-    myImage.src = "../images/architect-9280053_1280.jpg" + i;
+    myImage.src = "../images/ancientjapanesehouse.jpg" +i;
 
     if(i === 5 ) {
-        myImage.style.borderRadius(".myStyle.myRadius")
+        myImage.style.borderRadius = "50%";
     }
     
-    myImage.classList.add("marginStyle")
-    document.body.appendChild("myImage")
+    
+    document.body.appendChild(myImage);
 
 }
 
