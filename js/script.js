@@ -71,7 +71,7 @@ document.body.appendChild(myImage) */
 
 //method 7
 
-for(i=0; i<10; i++){
+/* for(i=0; i<10; i++){
     const myImage = document.createElement("img")
     myImage.src = "../images/ancientjapanesehouse.jpg"
     document.body.appendChild(myImage)
@@ -81,6 +81,22 @@ for(i=0; i<10; i++){
     myImage.classList.add("marginStyle")
     console.log(e.target.src)
 }  )
-}
+} */
 
+//method 8
+
+
+
+for(i=0; i<10; i++){
+    
+    const myImage = document.createElement("img")
+    myImage.src = "../images/architect-9280053_1280.jpg"
+    
+    if(i === 5 ) {
+        myImage.classList.add("marginStyle")
+        document.body.appendChild("myImage")
+    }
+
+
+}
 
