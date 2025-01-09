@@ -71,8 +71,9 @@ document.body.appendChild(myImage) */
 
 //method 7
 
-for(i=0; i<11; i++;){
-    console.log(i)
+for(i=0; i<10; i++){
+    const myImage = document.createElement("img")
+    myImage.src = "../images/ancientjapanesehouse.jpg"
 }
 
 
