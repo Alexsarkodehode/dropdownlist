@@ -89,9 +89,9 @@ document.body.appendChild(myImage) */
 
 for(i=0; i<10; i++){
     
-    const myImage = document.createElement("img")
+    const myImage = document.createElement("img");
     
-    myImage.src = "../images/ancientjapanesehouse.jpg" +i;
+    myImage.src = "../images/ancientjapanesehouse.jpg";
 
     if(i === 5 ) {
         myImage.style.borderRadius = "50%";
