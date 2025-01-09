@@ -78,7 +78,7 @@ for(i=0; i<10; i++){
 
     myImage.addEventListener("click", function(e){
     e.target.classList.toggle("myStyle")
-    myImage.classList.add("")
+    myImage.classList.add("marginStyle")
     console.log(e.target.src)
 }  )
 }
