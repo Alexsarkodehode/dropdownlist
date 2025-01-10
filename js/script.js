@@ -145,10 +145,10 @@ for(let i=0; i<10; i++){
             myImage.setAttribute("class", function(){
 
                 for (let i = 0; i = <images.length; i++){
-                    
+                    images[i].classList.remove("myRadius")
                 }
 
-
+                myImage.classList.add("myRadius")
             })
 
         }
