@@ -138,8 +138,12 @@ for(let i=0; i<10; i++){
 
         for(let i = 0; i<10; i++ ){
 
+            const myImage = document.createElement("img")
+
+            myImage.src = "../images/architect-9280053_1280.jpg"
 
             
+
         }
 
 
