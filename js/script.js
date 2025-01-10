@@ -142,7 +142,14 @@ for(let i=0; i<10; i++){
 
             myImage.src = "../images/architect-9280053_1280.jpg"
 
-            
+            myImage.setAttribute("class", function(){
+
+                for (let i = 0; i = <images.length; i++){
+                    
+                }
+
+
+            })
 
         }
 
