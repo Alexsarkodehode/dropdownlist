@@ -106,7 +106,12 @@ for(i=0; i<10; i++){
 
 for(i=0; i<10; i++){
     const myImage = document.createElement("img")
-    myImage.src = ""
+    myImage.src = "../images/ancientjapanesehouse.jpg"
+    myImage.addEventListener("click", function(){
+        
+        console.log(i)
+    })
+    document.body.appendChild(myImage)
 }
 
 
