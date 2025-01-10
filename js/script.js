@@ -104,14 +104,23 @@ for(i=0; i<10; i++){
 
 //method 9
 
-for(i=0; i<10; i++){
+for(let i=0; i<10; i++){
     const myImage = document.createElement("img")
     myImage.src = "../images/ancientjapanesehouse.jpg"
+
+    if(i < 1 ){
+        myImage[i].shift("../images/ancientjapanesehouse.jpg");
+    } else if(i === 9){
+        myImage[i].push("../images/architect-9280053_1280.jpg")
+    }
+
     myImage.addEventListener("click", function(){
-        
-        console.log(i)
+        console.log(`This is picture number: ${i}`)
     })
+    
     document.body.appendChild(myImage)
 }
+
+
 
 
