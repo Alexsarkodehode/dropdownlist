@@ -117,22 +117,26 @@ for(let i=0; i<10; i++){
 } */
 
     //method 10
-
+/* 
     for(let i = 0; i<10; i++ ){
         const myImage = document.createElement("img")
         myImage.src = "../images/beach1.jpg.jpg"
 
-        myImage.classList.add("myMargin")
         
-
+        
         document.addEventListener("click", function(){
+            myImage.classList.add("myMargin")
+            myImage.classList.add("myStyle")
             myImage.classList.add("myRadius")
         })
-
-
+        
         document.body.appendChild(myImage)
-    }
 
+    } */
+
+        //method 11
+
+        
 
 
 
