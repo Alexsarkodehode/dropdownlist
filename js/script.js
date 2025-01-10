@@ -86,7 +86,7 @@ document.body.appendChild(myImage) */
 //method 8
 
 
-
+/* 
 for(i=0; i<10; i++){
     
     const myImage = document.createElement("img");
@@ -100,7 +100,13 @@ for(i=0; i<10; i++){
     
     document.body.appendChild(myImage);
 
-}
+} */
 
+//method 9
+
+for(i=0; i<10; i++){
+    const myImage = document.createElement("img")
+    myImage.src = ""
+}
 
 
