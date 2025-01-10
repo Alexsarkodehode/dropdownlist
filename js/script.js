@@ -103,20 +103,35 @@ for(i=0; i<10; i++){
 } */
 
 //method 9
-
+/* 
 for(let i=0; i<10; i++){
     const myImage = document.createElement("img")
     myImage.src = "../images/ancientjapanesehouse.jpg"
 
-    if(i === 0 ){
-        [i].shift();
-    } 
+
     myImage.addEventListener("click", function(){
         console.log(`This is picture number: ${i}`)
     })
     
     document.body.appendChild(myImage)
-}
+} */
+
+    //method 10
+
+    for(let i = 0; i<10; i++ ){
+        const myImage = document.createElement("img")
+        myImage.src = "../images/beach1.jpg.jpg"
+
+        myImage.classList.add("myMargin")
+        
+
+        document.addEventListener("click", function(){
+            myImage.classList.add("myRadius")
+        })
+
+
+        document.body.appendChild(myImage)
+    }
 
 
 
