@@ -136,22 +136,7 @@ for(let i=0; i<10; i++){
 
         //method 11
 
-        for(let i = 0; i<10; i++ ){
 
-            const myImage = document.createElement("img")
-
-            myImage.src = "../images/architect-9280053_1280.jpg"
-
-            myImage.setAttribute("class", function(){
-
-                for (let i = 0; i = <images.length; i++){
-                    images[i].classList.remove("myRadius")
-                }
-
-                myImage.classList.add("myRadius")
-            })
-
-        }
-
+        
 
 
