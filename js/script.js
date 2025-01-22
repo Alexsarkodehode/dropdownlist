@@ -135,7 +135,7 @@ for(let i=0; i<10; i++){
     } */
 
         //method 11
-
+/* 
         let c = 0, ci = 0, cd = 0
         const count = document.getElementById("count")
         const incCount = document.getElementById("incCount")
@@ -159,5 +159,19 @@ for(let i=0; i<10; i++){
             incCount.textContent = ci;
             decCount.textContent = cd; 
         }
+ */
 
+        let c = 0, ci = 0, cd = 0
 
+        const count = document.getElementById('count')
+        const inCount = document.getElementById('inCount')
+        const deCount = document.getElementById('deCount')
+
+        function inc(){
+            c++;
+            
+        }
+
+        function dec(){}
+
+        function update(){}
