@@ -169,6 +169,7 @@ for(let i=0; i<10; i++){
 
         function inc(){
             c++;
+            ci = (ci >= 10) ? 0 : ci + 1
             
         }
 
